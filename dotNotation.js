@@ -25,11 +25,11 @@ let vertical
 const lines =["   |   |   ","-----------"]
 for (let i=0; i <1; i++)
 
+console.log ("graph 2");
+
     {console.log("   |   |   ")
     console.log("   |   |   ")
     console.log("-----------")
-}
-
-
+};
 
 

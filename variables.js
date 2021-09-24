@@ -28,6 +28,14 @@ dinner = 'salad';
 tea = 'pasta';
 console.log (`This morning for breakfast I had ${breakfast}, followed by a ${dinner} for dinner, then finally for tea i had ${tea}.`);
 
+let favouriteGame = 'warzone';
+let favuoriteFood = 'chinese';
+let favouriteSport = 'football';
+
+console.log(`this morning at school i played ${favouriteSport}, when i got home i played some ${favouriteGame} 
+and for tea i had ${favuoriteFood}`);
+
+
 
 
 // task 3 //
@@ -116,9 +124,21 @@ if(password.lenght >= 8)
 console.log ("your password is too short.")
 }
 
+//eg 2
+
+let pin = "1234564" //because the pin is more than 7 it goes to the else statement.
+
+ if (pin.length == 7){ // equal too
+console.log("your pin is 7 numbers")
+ } else {
+     console.log("your pin is too short")
+ };
 
 
-// activity 3 stretch
+
+
+
+ // activity 3 stretch
  let num = 10
  if (num % 3 == 0 || num % 5 == 0) {
      console.log("this number is divisible by 3 or 5")

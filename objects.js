@@ -94,7 +94,7 @@ let alien = {
 }
 console.log(alien["work exp"]);
 
-//declare a new object, called "myCafe"
+//declare a new object, called "myCafe" Basils example.
 const myCafe = {
   
     //now assign it its own variables...
@@ -130,11 +130,48 @@ const myCafe = {
     
       //then, use that random number to pick out a random element of the food array, then the matching element for the price (all inside the   //arr_Drinks array where arr_Drinks[0][?] would be the actual string and where arr_Drinks[1][?] would be the matching price
       //once accessed, print them out to the console
-        bark("For a drink, you ordered the " +object.arr_Drinks[0][var_index]+" and the price of it is £"+object.arr_Drinks[1][var_index])
+        //bark("For a drink, you ordered the " +object.arr_Drinks[0][var_index]+" and the price of it is £"+object.arr_Drinks[1][var_index])
     
       //can also return the price of a drink, but this isnt used yet
       return (object.arr_Drinks[1][var_index])
     }
     
     //now, actually call the function (with an object passed as a parameter) so something will be displayed
-    orderDrinks(myCafe)
+    orderDrinks(myCafe);
+
+
+    console.log ("")
+    let hour = 18;
+
+    if (hour >= 6 && hour < 12){
+      console.log("good morning")
+    } else if  (hour >= 12 && hour < 18){
+console.log("good afternoon")
+    } else 
+    console.log("good evening");
+
+
+    const restaurant = { // this is the object
+      name: "grey mare",
+      seatingCapacity: 100, // these are all keys
+      hasDealsOn: true,
+      beers:[
+        "san miguel",  // keys and values are separates by the colon.
+        "peroni",
+        "stella",
+        "forsters"
+      ]
+};
+
+ let myYoutubeVideo = {
+   title : 'loops in javascript',
+   videoLenght: 15,
+   videoCreator: 'rob pye',
+   videoDescription: ' this is a video description'
+
+  }
+
+console.log(myYoutubeVideo);
+console.log(`hey new video on ${myYoutubeVideo.title} by ${myYoutubeVideo.videoCreator}`);
+
+

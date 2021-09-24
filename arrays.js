@@ -160,3 +160,14 @@ for (let i = 0; i < monicasFollowers.length; i++){
 // ACTIVITY 7 
  // research on do while loop
 
+
+let place = "helmshore";
+let weather = "snow";
+
+if (place == "helmshore" && weather == "sunny"){
+    console.log("check again stupid");
+} else if (place == "helmshore" && weather == "snow"){
+    console.log("highly likely");
+} else {
+    console.log(" what, it isnt snowing?");
+}
