@@ -86,8 +86,7 @@ console.log("----------- activity 3 --------------");
 console.log("please enter your pin and the amount which you would like to withdraw")
 //let pinNumber = 1234 //variables, our money and pin
 //let balance = 50
-
-
+ 
 const cashWithdrawal = (pin, amount) => {   //constant pin and amounts is the parameter
     if (pin != pinNumber) {   // this means is the pin not equal to the pin number
         console.log("incorrect pin, please try again"); // if the pin is inccorrect this will show.
